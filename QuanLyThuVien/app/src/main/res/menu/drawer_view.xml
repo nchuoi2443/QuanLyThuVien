@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_home"
+            android:title="Receipt Management" />
+        <item
+            android:id="@+id/nav_LoaiSach"
+            android:icon="@drawable/ic_catebook"
+            android:title="Type Management" />
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/ic_books"
+            android:title="Book Management" />
+        <item
+            android:id="@+id/nav_ThanhVien"
+            android:icon="@drawable/ic_customer"
+            android:title="Member Management" />
+
+        <item android:title="Statistic">
+            <menu>
+                <item
+                    android:id="@+id/sub_Top"
+                    android:icon="@drawable/ic_top"
+                    android:title="Top 10" />
+                <item
+                    android:id="@+id/sub_DoanhThu"
+                    android:icon="@drawable/ic_money"
+                    android:title="Revenue" />
+            </menu>
+        </item>
+
+        <item android:title="User">
+            <menu>
+                <item
+                    android:id="@+id/sub_AddUser"
+                    android:icon="@drawable/ic_adduser"
+                    android:title="Add User" />
+                <item
+                    android:id="@+id/sub_Pass"
+                    android:icon="@drawable/ic_pass"
+                    android:title="Change Password" />
+                <item
+                    android:id="@+id/sub_Logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Log out" />
+            </menu>
+        </item>
+    </group>
+</menu>
