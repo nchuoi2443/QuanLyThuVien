@@ -11,6 +11,7 @@ import java.util.List;
 
 import haui.edu.libmanagerhaui.database.DbHelper;
 import haui.edu.libmanagerhaui.model.LoaiSach;
+import haui.edu.libmanagerhaui.model.LoaiSach;
 
 public class LoaiSachDAO {
     private SQLiteDatabase db;
