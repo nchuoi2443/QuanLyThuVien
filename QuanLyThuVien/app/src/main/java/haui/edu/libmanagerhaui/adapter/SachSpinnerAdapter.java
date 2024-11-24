@@ -23,7 +23,7 @@ public class SachSpinnerAdapter extends ArrayAdapter<Sach> {
     public SachSpinnerAdapter(@NonNull Context context, ArrayList<Sach> lists) {
         super(context,0, lists);
         this.context = context;
-        this.lists = lists;
+        this.lists = lists; 
     }
 
     @NonNull
