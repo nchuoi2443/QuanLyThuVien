@@ -5,13 +5,6 @@
             android:id="@+id/nav_PhieuMuon"
             android:icon="@drawable/ic_home"
             android:title="Phiếu mượn" />
-<<<<<<< HEAD
-=======
-        <item
-            android:id="@+id/nav_LoaiSach"
-            android:icon="@drawable/ic_catebook"
-            android:title="Quản lý loại sách" />
->>>>>>> 7dda76fdab6e666c0b1102e5e5233b459ec80f6a
         <item
             android:id="@+id/nav_Sach"
             android:icon="@drawable/ic_books"

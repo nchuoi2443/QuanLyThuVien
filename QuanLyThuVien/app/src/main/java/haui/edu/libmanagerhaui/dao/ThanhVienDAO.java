@@ -1,4 +1,3 @@
-
 package haui.edu.libmanagerhaui.dao;
 
 import android.annotation.SuppressLint;
@@ -65,4 +64,3 @@ public class ThanhVienDAO {
         return list.get(0);
     }
 }
-
