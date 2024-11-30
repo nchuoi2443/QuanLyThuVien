@@ -4,19 +4,19 @@
         <item
             android:id="@+id/nav_PhieuMuon"
             android:icon="@drawable/ic_home"
-            android:title="Receipt Management" />
+            android:title="Phiếu mượn" />
         <item
             android:id="@+id/nav_LoaiSach"
             android:icon="@drawable/ic_catebook"
-            android:title="Type Management" />
+            android:title="Quản lý loại sách" />
         <item
             android:id="@+id/nav_Sach"
             android:icon="@drawable/ic_books"
-            android:title="Book Management" />
+            android:title="Quản lý sách" />
         <item
             android:id="@+id/nav_ThanhVien"
             android:icon="@drawable/ic_customer"
-            android:title="Member Management" />
+            android:title="Quản lý thành viên" />
 
         <item android:title="Statistic">
             <menu>
@@ -27,7 +27,7 @@
                 <item
                     android:id="@+id/sub_DoanhThu"
                     android:icon="@drawable/ic_money"
-                    android:title="Revenue" />
+                    android:title="Doanh thu" />
             </menu>
         </item>
 
@@ -36,15 +36,15 @@
                 <item
                     android:id="@+id/sub_AddUser"
                     android:icon="@drawable/ic_adduser"
-                    android:title="Add User" />
+                    android:title="Thêm người dùng" />
                 <item
                     android:id="@+id/sub_Pass"
                     android:icon="@drawable/ic_pass"
-                    android:title="Change Password" />
+                    android:title="Đổi mật khẩu" />
                 <item
                     android:id="@+id/sub_Logout"
                     android:icon="@drawable/ic_logout"
-                    android:title="Log out" />
+                    android:title="Đăng xuất" />
             </menu>
         </item>
     </group>

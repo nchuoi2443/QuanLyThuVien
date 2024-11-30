@@ -1,3 +1,4 @@
+
 package haui.edu.libmanagerhaui.adapter;
 
 import android.content.Context;
@@ -61,3 +62,4 @@ public class ThanhVienSpinnerAdapter extends ArrayAdapter<ThanhVien> {
         return v;
     }
 }
+
