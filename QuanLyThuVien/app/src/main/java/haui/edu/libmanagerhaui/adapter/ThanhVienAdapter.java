@@ -60,4 +60,8 @@ public class ThanhVienAdapter extends ArrayAdapter<ThanhVien> {
         });
         return v;
     }
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 7dda76fdab6e666c0b1102e5e5233b459ec80f6a

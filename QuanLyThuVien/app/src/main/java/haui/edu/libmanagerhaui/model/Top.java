@@ -22,4 +22,10 @@ public class Top {
     public void setSoLuong(int soLuong) {
         this.soLuong = soLuong;
     }
+<<<<<<< HEAD
 }
+=======
+
+}
+
+>>>>>>> 7dda76fdab6e666c0b1102e5e5233b459ec80f6a
