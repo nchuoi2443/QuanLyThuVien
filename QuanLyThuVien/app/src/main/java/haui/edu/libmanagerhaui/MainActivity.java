@@ -83,10 +83,10 @@ public class MainActivity extends AppCompatActivity {
                             .replace(R.id.flContent, phieuMuonFragment)
                             .commit();
                 }
-                if(i == R.id.nav_LoaiSach){
-                    setTitle("Type management");
-                    Toast.makeText(getApplicationContext(), "Quản lý Loại sách", Toast.LENGTH_SHORT).show();
-                }
+//                if(i == R.id.nav_LoaiSach){
+//                    setTitle("Type management");
+//                    Toast.makeText(getApplicationContext(), "Quản lý Loại sách", Toast.LENGTH_SHORT).show();
+//                }
                 if(i == R.id.nav_Sach){
                     setTitle("Book management");
                     SachFragment sachFragment = new SachFragment();
