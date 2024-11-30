@@ -6,6 +6,12 @@ public class ThuThu {
     private String matKhau;
 
     public ThuThu() {
+
+
+        this.maTT = "";
+        this.hoTen = "";
+        this.matKhau = "";
+
     }
 
     public ThuThu(String maTT, String hoTen, String matKhau) {
@@ -46,4 +52,6 @@ public class ThuThu {
                 ", matKhau='" + matKhau + '\'' +
                 '}';
     }
+
 }
+
