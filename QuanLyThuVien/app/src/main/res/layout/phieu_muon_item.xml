@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_weight="10"
-    >
+        >
 
         <TextView
             android:id="@+id/tvMaPM"
