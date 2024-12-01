@@ -8,21 +8,15 @@
 
 ## **Hướng dẫn cài đặt**  
 
-### **Bước 1: Clone dự án từ GitHub**  
-###1. Mở một thư mục bất kỳ trên máy tính.  
-###2. Sử dụng Git để clone dự án bằng lệnh sau:  
-   ```bash
-   git clone https://github.com/ThAolInh20/QuanLyThuVien.git
-###3. Mở Android Studio.
-Nhấn nút "Open".
-Dẫn đến thư mục chứa project QuanLyThuVien mà bạn vừa clone.
-###4: Cài đặt giả lập thiết bị Android
-Mở AVD Manager trong Android Studio (góc phải phía trên).
-Tạo một thiết bị ảo Android (giả lập) phù hợp với ứng dụng, hoặc kết nối một thiết bị Android thật qua cáp USB.
-###5: Chạy ứng dụng
-Nhấn nút Run (hoặc sử dụng phím tắt Shift + F10) trong Android Studio.
-Chọn thiết bị (giả lập hoặc thật) để chạy ứng dụng.
-Yêu cầu hệ thống
+###B1: Mở 1 thư mục bất kì, sử dụng Git để Clone đường link sau về máy: https://github.com/ThAolInh20/QuanLyThuVien.git.
+###B2: Mở AndroiStudio và click nút “Open” và chọn thư mục chưa project QuanLyThuVien.
+###B3: Bạn mở file “ local.properties ” trong mục Gradle Scripts.
+###B4: Sửa sdk.dir lại bằng địa chỉ của thư mục SDK trên máy của bạn thông thường là: “C\:\\Users\\%tenuser%\\AppData\\Local\\Android\\Sdk”.
+###B5: Tải 1 giả lập thiết bị androi ở trên AndroiStudi để có thể chạy ứng dụng.
+###B6: Chọn phần “Edit configute…” -> nhấn Add Configute -> chọn Androi app-> chọn module “LibManagerHaui.app.main” 
+###B6: Nhấn nút start để bắt đầu chạy chương trình
+
+## **Yêu cầu**
 Android Studio: Phiên bản mới nhất.
 Java Development Kit (JDK): Phiên bản 8 hoặc cao hơn.
 SDK Android: Được cài đặt và cấu hình đúng trong file local.properties.
@@ -30,7 +24,7 @@ Liên hệ
 Nếu có bất kỳ câu hỏi hoặc vấn đề nào khi sử dụng dự án, vui lòng liên hệ qua email:
 📧 thaolinh20@example.com
 
-Thông tin bổ sung
-Ngôn ngữ phát triển: Java/Kotlin
+## **Thông tin bổ sung**
+Ngôn ngữ phát triển: Java
 Công cụ: Android Studio, Gradle
 Hệ điều hành hỗ trợ: Windows, macOS, Linux
